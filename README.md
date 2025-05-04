@@ -16,17 +16,8 @@ In summary, our contributions are as follows:
 * **Graph Neural Network Encoding of Medical Subgraphs:** We employ a GNN encoder to transform the retrieved subgraph (containing patient symptoms and observations) into a rich embedding that can interface with the VLM’s language modality. This allows the model to incorporate structured medical facts (as a “graph prompt”) into its reasoning process, improving interpretability and accuracy.
 * **Triage Knowledge Graph Design:** We introduce a specialized knowledge graph schema for the triage domain, defining node types (Patient, Symptom, Observation) and their relationships (e.g., patient-observation, observation-symptom edges), including the temporal dimension of patient vitals. This schema enables capturing each patient’s history and the general medical knowledge in a unified graph structure.
 
-The rest of the paper is organized as follows: Section Related Work reviews prior efforts in VLMs, knowledge graphs, and retrieval augmentation in healthcare. Section Background provides necessary context on vision-language models, knowledge graphs, and RAG. In Section Proposed Method, we detail our KGRAG framework, including the system architecture and KG schema. Sections for Experiments, Results, and Discussion are placeholders for future work. Finally, Conclusion and Future Work outlines the implications of our approach and avenues for further development.
+The rest of the paper is organized as follows: Section Related Work reviews prior efforts in VLMs, knowledge graphs, and retrieval augmentation in healthcare. Section Background provides necessary context on vision-language models, knowledge graphs, and RAG. In Section Proposed Method, we detail our framework, including the system architecture and KG schema. Sections for Experiments, Results, and Discussion are placeholders for future work. Finally, Conclusion and Future Work outlines the implications of our approach and avenues for further development.
 
-![Self Correction Example from the Llama 3.2 1B Model on a HumanEval dataset sample](figures/sc_example.png)
-*Figure 1: Self Correction Example from the Llama 3.2 1B Model on a HumanEval dataset sample*
-
-**References**
-
-[1] A. Defilippo, P. Veltri, P. Lió, and P. H. Guzzi. Leveraging graph neural networks for supporting automatic triage of patients. *Scientific reports*, 14(1):12548, 2024.
-
-[2] M. Oquab et al. DINOv2: Learning robust visual features without supervision. *arXiv preprint arXiv:2304.07143*, 2024.
-
-[3] Y. Wang et al. Knowledge graph retrieval-augmented generation for large language models. *arXiv preprint arXiv:2305.14700*, 2025.
+![Report](VLM_final_report.pdf)
 
 This research, conducted under the supervision of Prof. Galeotti at the RI, CMU, investigates methods to enhance VLMs, such as DINOv2, through the integration of Knowledge Graphs and Retrieval-Augmented Generation (RAG). The objective is to improve the automated assessment of patient vital signs as part of the DARPA-funded project.
