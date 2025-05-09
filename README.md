@@ -11,7 +11,8 @@ In summary, our contributions are as follows:
 * **Triage Knowledge Graph Design:** We introduce a specialized knowledge graph schema for the triage domain, defining node types (Patient, Symptom, Observation) and their relationships (e.g., patient-observation, observation-symptom edges), including the temporal dimension of patient vitals. This schema enables capturing each patient’s history and the general medical knowledge in a unified graph structure.
 
 ![Report](VLM_final_report.pdf)
-![Code](graph_creation.ipynb)
+![Graph Creation Code](graph_creation.ipynb)
+![Primitive visualisation](Node_representation.ipynb)
 
 
 This research, conducted under the supervision of Prof. Galeotti at the RI, CMU, investigates methods to enhance VLMs, such as DINOv2, through the integration of Knowledge Graphs and Retrieval-Augmented Generation (RAG). The objective is to improve the automated assessment of patient vital signs as part of the DARPA-funded project.
